@@ -5,7 +5,8 @@ import Carousel from 'nuka-carousel';
 const MoviePoster = (props) => {
   return(
     <div>
-  <h1>Coming Soon</h1>
+      <h3>Coming Soon</h3>
+      <br></br>
     <Carousel slidesToShow='4' wrapAround pauseOnHover autoplayInterval='1500' autoplayReverse='true' autoplay='true' frameOverflow='hidden'>
       {
         props.movies.map((movie, i) => {

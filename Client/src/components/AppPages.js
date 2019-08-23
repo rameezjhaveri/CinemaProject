@@ -68,8 +68,8 @@ class AppPages extends Component {
                             <Route path='/my-account' component={MyAccountPage}/>
                             <Route component={ErrorPage}/>
                         </Switch>
+                        <AppFooter/>
                     </div>
-                    <AppFooter/>
                 </Router>
             </div>
         )

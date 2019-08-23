@@ -2,12 +2,13 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
-  overflow:hidden
+  overflow:hidden;
+  background-color: #2A3132;
 }
 .AppPages {
     display: flex;
     flex-direction: column;
-    align-content: stretch;
+    align-content: center;
     min-height: 100vh;
     max-height: 100vh;
     min-width: 100vw;
@@ -17,7 +18,7 @@ html, body {
     flex: 1;
     padding: var(--space) var(--space) 0;
     overflow: auto;
-    max-height: 70%;
+    max-height: 100%;
 }
 
 .bgColor button {

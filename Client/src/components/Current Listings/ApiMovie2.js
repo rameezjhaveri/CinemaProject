@@ -14,12 +14,11 @@ const ApiMovie2 = (props) => {
                         <h3>{props.title}</h3>
                         <p style={{fontSize:13, textShadow:'1px 0px 0px'}}>{props.overview}</p>   
                          </div>
-                        
                     </FlippingCardBack>
                     <FlippingCardFront>
                         <img src={`http://image.tmdb.org/t/p/w500${props.image}`} alt="Movie" style={{width:"100%", height: "100%"}}/>
                     </FlippingCardFront>
-                    <img src={`http://image.tmdb.org/t/p/w500${props.image}`} alt="Movie" style={{width:"100%", height: "100%", opacity:0.2}}/>
+                    <img src={`http://image.tmdb.org/t/p/w500${props.image}`} alt="Movie" style={{width:"100%", height: "100%", opacity:0.35}}/>
                 </FlippingCard>
                 <div>
                     <span>

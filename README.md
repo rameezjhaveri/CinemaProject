@@ -1,15 +1,15 @@
 # CinemaProject
 ## Instuctions to run frontend
 [MongoDB](https://www.mongodb.com/download-center/community) must be installed as well as [Node.js](https://nodejs.org/en/download/).
-In the project directory open the command prompt and run the following commands:
+In the client folder open command prompt and run the following commands:
 
 ### `npm install`
 
-This will import all the dependencies.
+This will import all the dependencies required to run the project.
 
 ### `npm start`
 
-Runs the app in the development mode.<br>
+Runs the app in development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.<br>

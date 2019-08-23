@@ -22,11 +22,6 @@ import AppPlacesToGoPage from './PlacesToGo/AppPlacesToGoPage';
 import AppScreensPage from './Screens/AppScreensPage';
 
 class AppPages extends Component {
-    constructor(props) {
-        super(props);
-        this.state = { width: 0, height: 0 };
-        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-      }
 
     pricing = {}
     componentWillMount() {
@@ -47,20 +42,7 @@ class AppPages extends Component {
                 console.log(error)
             })
         });
-
     }
-      componentDidMount() {
-        this.updateWindowDimensions();
-        window.addEventListener('resize', this.updateWindowDimensions);
-      }
-
-      componentWillUnmount() {
-        window.removeEventListener('resize', this.updateWindowDimensions);
-      }
-
-      updateWindowDimensions() {
-        this.setState({ width: window.innerWidth, height: window.innerHeight });
-      }
 
     render() {
         return (
@@ -87,7 +69,7 @@ class AppPages extends Component {
                             <Route component={ErrorPage}/>
                         </Switch>
                     </div>
-                    <AppFooter />
+                    <AppFooter/>
                 </Router>
             </div>
         )

@@ -8,7 +8,7 @@
   padding-top:10px;
   font-size:15px;
   color:#737373;
-  padding-bottom:0px;
+  padding-bottom:-20px;
 }
 
 .site-footer .footerRow{
@@ -20,7 +20,7 @@
   color:#fff;
   font-size:16px;
   text-transform:uppercase;
-  margin-top:5px;
+  margin-top:0px;
   letter-spacing:2px
 }
 .site-footer a
